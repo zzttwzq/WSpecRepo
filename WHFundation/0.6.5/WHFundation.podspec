@@ -40,4 +40,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'AddressBook', 'Photos', 'EventKit', 'CoreTelephony', 'AVFoundation', 'MediaPlayer'
   s.dependency 'AFNetworking'
   s.dependency 'SDWebImage'
+  s.dependency 'MJRefresh'
 end
